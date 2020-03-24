@@ -10,9 +10,6 @@ function App() {
         <p>
           Hello OmniStack
         </p>
-        <p>
-          Hello World!
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
