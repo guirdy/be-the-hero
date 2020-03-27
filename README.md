@@ -8,7 +8,7 @@ Um sistema para cadastro de ONGs, onde a mesma poderá cadastrar vários casos a
 
 O Herói poderá visualizar os casos cadastrados pelas ONGs, e escolher através da plataforma mobile, onde será possível entrar em contato com as ONGs seja por WhatsApp ou E-mail para salvar o dia.
 
-![](https://github.com/Guirdy/be-the-hero/blob/master/print2.png)
+![](https://github.com/Guirdy/be-the-hero/blob/master/print2.png =700x1244)
 
 ## Tecnologias utilizadas
 - Node JS
