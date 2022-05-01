@@ -11,7 +11,7 @@
 
 .register-container .content {
     width: 100%;
-    padding: 96px;
+    padding: 56px 96px;
     background: #f0f0f5;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -52,4 +52,24 @@
 
 .register-container .content form .input-group input + input {
     margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .register-container .content {
+        padding: 26px;
+    }
+
+    .register-container {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        max-width: 250px;
+    }
 }

@@ -1,5 +1,6 @@
 .logon-container {
     width: 100%;
+    padding: 26px;
     max-width: 1120px;
     height: 100vh;
     margin: 0 auto;
@@ -22,4 +23,30 @@
 .logon-container section.form form h1 {
     font-size: 32px;
     margin-bottom: 32px;
+}
+
+.btn-transparent {
+    border-bottom: 2px solid #0087C6;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 135, 198, 0.1);
+}
+
+@media (max-width: 768px) {
+    .heroes {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .logon-container {
+        justify-content: center;
+    }
+
+    .logon-container section.form form {
+        margin-top: 50px;
+    }
 }

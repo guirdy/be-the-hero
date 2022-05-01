@@ -1,0 +1,107 @@
+.list-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.space {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.navbar > img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.go-back {
+  display: flex;
+  align-items: center;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.go-back svg {
+  margin-right: 8px;
+}
+
+.go-back:hover {
+  opacity: 0.8;
+}
+
+.list-content > h1 {
+  margin: 40px 0;
+}
+
+.list-card {
+  max-width: 650px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: rgb(83, 83, 83);
+}
+
+.list-card strong {
+  font-size: 1.5rem;
+}
+
+.list-card .title {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.list-card .description {
+  font-size: 1.1rem;
+  margin-top: 6px;
+  color: rgb(138, 138, 138);
+}
+
+.list-card .money {
+  color: rgb(19, 177, 111);
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.btn-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  max-width: 300px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(0, 135, 198, 0.1);
+}
+
+.btn-contact svg {
+  margin-right: 8px;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .go-back {
+    margin-top: 30px;
+  }
+}
